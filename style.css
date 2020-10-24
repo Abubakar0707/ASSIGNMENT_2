@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+/* Header */
+.header
+{
+    width: 100%;
+    height: 40px;
+    display: block;
+    background-color: #1a1c20;
+    color: white;
+}
+.fas
+{
+    color: white;
+    padding-top: 10px;
+    font-size: 12px;
+    margin: 5px;
+    padding-left: 25px;
+}
+
+.span
+{
+    color: white;
+    font-size: 5px;
+}
+
+#fax
+{
+    margin-left: 450px;
+    color: white;
+}
+#fay
+{
+    color: white;
+}
+#faz
+{
+    color: white;
+}
+#fau
+{
+    color: white;
+}
+#fax :hover
+{
+    color: blue;
+}
+#fay :hover
+{
+    color: purple;
+}
+#faz :hover
+{
+    color: lightblue;
+}
+#fau :hover
+{
+    color:red;
+}
+/* Header */
+/* Navbar */
+.navbar{
+    box-shadow: 1px 5px #888888;
+}
+.nav .nav-link
+{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 16px!important;
+    padding-right: 16px!important;
+}
+.navbar-toggler
+{
+    outline: none!important;
+}
+
+.bg-light
+{
+    color: black;
+}
+
+.alert-info
+{
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.navbar-brand
+{
+    padding-left: 50px;
+}
+.dropdown-menu
+{
+    background-color: black;
+}
+.dropdown-item
+{
+    color: white;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+/* Navbar End */
+/* Section 1 */
+#about-sec
+{
+    margin-top: 25px;
+    box-shadow: 1px 5px red;
+}
+.text-color
+{
+    color: black;
+}
+.text
+{
+    color: grey;
+}
+
+.sportplan
+{
+    text-decoration: underline;
+    color: red;
+}
+.sportplan :hover
+{
+    color:black;
+}
+#section1
+{
+    margin-bottom: 15px;
+}
+/* Section 1 */
+/* Slider Images */
+#main
+{
+    margin-top: 5px;
+    box-shadow: 1px 5px red;
+    z-index: 0;
+}
+#container
+{
+    margin-top: -70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    overflow: hidden;
+    min-height: 100px;
+    z-index: 1;
+    position: absolute;
+}
+
+#left
+{
+    width: 30%;
+    float: left;
+    background-color: red;
+    margin: 20px;
+    border-top: 1px ridge white;
+}
+
+#right
+{
+    float: right;
+    background-color: red;
+    width: 30%;
+    margin: 20px;
+    border-top: 1px ridge white;
+}
+
+#center
+{
+    background-color: red;
+    width: 30%;
+    margin: 20px;
+    float: left;
+    border-top: 1px ridge white;
+}
+
+
+
+#center p
+{
+    overflow: hidden;
+}
+/* Slider Images End */
+
+.light{
+    background-color: white;
+    margin: 3px;
+    width: 75%;
+    margin-left: 50px;
+}
+
+#helpline
+{
+    color: grey;
+    background-color: silver;
+    margin-top: 140px;
+    border: 1px groove grey;
+    font-size: 10px;
+}
+.a
+{
+    color: red;
+    background-color: red;
+    text-decoration: underline;
+}
+.a:hover
+{
+    color: blueviolet;
+}
+
+.red{
+    background-color: red;
+    margin: 3px;
+    width: 75%;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.red1{
+    background-color: red;
+    margin: 3px;
+    width: 75%;
+    margin-left: 120px;
+}
+
+.btn .btn-default
+{
+    margin-left: 5px;
+}
+
+#rr
+{
+    float: right;
+    background-color:silver;
+    width: 50%;
+    border-top: 1px ridge white;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+#ll
+{
+    float: left;
+    background-color:silver;
+    width: 50%;
+    border-top: 1px ridge silver;
+    margin-top: 20px;
+    padding: 5px;
+}
+.red2{
+    background-color: red;
+    margin: 3px;
+    width: 75%;
+    margin-top: 400px;
+    margin-left: 120px;
+}
+.red3{
+    background-color: red;
+    margin: 3px;
+    width: 75%;
+    margin-left: 120px;
+}
+.red4{
+    background-color: red;
+    border-style: dotted;
+    width: 50%;
+    margin-left: 250px;
+}
+.a1
+{
+    float: left;
+    margin-top: 15px;
+}
+.a2
+{
+    float: right;
+    margin-top: 15px;
+}
+
+
+ul#menu li
+{
+    display: inline;
+}
+
+.red5{
+    background-color: red;
+    margin: 3px;
+    width: 75%;
+    margin-top: 950px;
+    margin-left: 120px;
+}
+.red6{
+    background-color: red;
+    margin: 3px;
+    width: 75%;
+    margin-left: 120px;
+}
+
+.footer
+  {
+    border: 3px groove black;
+      background: black;
+      color: white;
+  } 
